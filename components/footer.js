@@ -5,7 +5,7 @@ export default function Header() {
     <footer className={styles.footer}>
       
       <a href="https://www.instagram.com/_alesphotos/">
-        <img src="/instagram_Icon.png"/>
+        <img src="/instagram_Icon.png" alt="Instagram Icon"/>
       </a>
     
     </footer>
