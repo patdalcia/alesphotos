@@ -1,0 +1,53 @@
+@font-face {
+  font-family: futura-pt;
+  src: url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3)
+      format("woff2"),
+    url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3)
+      format("woff"),
+    url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3)
+      format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(../public/galleryPic_9.JPG);
+  background-size: 100% 130%;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main p {
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.9;
+  font-family: futura-pt;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.column {
+  min-width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.headerHomeImage {
+  width: 20rem;
+  height: 15rem;
+}

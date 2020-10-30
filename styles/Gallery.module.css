@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #000000;
+}
+
+.card {
+  max-width: 40vw;
+  max-height: 60vh;
+  height: 60vh;
+  width: 40vw;
+}
+
+.card img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.gImages {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 5vh;
+}

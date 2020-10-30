@@ -1,0 +1,31 @@
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.8);
+    opacity: 0.25;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.header {
+  min-height: 10vh;
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #000000;
+}
+.header a:hover,
+.header a:focus,
+.header a:active {
+  -webkit-animation: pulse 0.8s;
+  -moz-animation: pulse 0.8s;
+  -o-animation: pulse 0.8s;
+  animation: pulse 0.8s;
+}
