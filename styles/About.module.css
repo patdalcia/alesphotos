@@ -8,7 +8,7 @@
       format("opentype");
   font-weight: 300;
   font-style: normal;
-  font-display: auto;
+  font-display: swap;
 }
 
 .container {
