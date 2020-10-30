@@ -13,7 +13,7 @@ export default function Home() {
         <Header />
         <main className={styles.main}>
         <h1>ALEJANDRO BALMACEDA</h1>
-          <h3>photographer</h3>
+          <h2>photographer</h2>
         </main>
         <Footer />
       </div>
