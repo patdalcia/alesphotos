@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "../components/header";
 import styles from "../styles/Gallery.module.css";
 import Image from "next/image";
-//yeet
+
 
 export default function Gallery() {
   return (
