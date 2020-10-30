@@ -1,3 +1,24 @@
+@font-face {
+  font-family: futura-pt;
+  src: url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3)
+      format("woff2"),
+    url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3)
+      format("woff"),
+    url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3)
+      format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arvo-fallback";
+  font-display: fallback;
+  src: local("Arvo"),
+    url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2)
+      format("woff2");
+}
+
 @keyframes pulse {
   from {
     transform: scale(1);
