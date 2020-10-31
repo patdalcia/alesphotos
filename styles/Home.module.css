@@ -75,4 +75,7 @@
     background-image: url(../public/main_mobile_background.PNG);
     background-size: cover;
   }
+  .main h1 {
+    font-size: calc(3vw + 3vh + 1.5vmin);
+  }
 }
