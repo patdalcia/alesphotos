@@ -72,4 +72,8 @@
     background-image: url(../public/about_mobile_background.PNG);
     background-size: cover;
   }
+  .headerHomeImage {
+    width: 35vw;
+    height: 25vh;
+  }
 }
