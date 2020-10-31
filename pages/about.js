@@ -14,7 +14,7 @@ export default function About() {
         </Head>
         <Header />
         <main className={styles.main}>
-          <div className={styles.column}></div>
+          
           <div className={styles.column}>
             <div>
               <img
@@ -29,7 +29,7 @@ export default function About() {
               of experience. Send me a message through my instagram for a free consultation!
             </p>
           </div>
-          <div className={styles.column}></div>
+          
         </main>
         <Footer />
       </div>
