@@ -26,7 +26,6 @@
   width: 100vw;
   background-image: url(../public/galleryPic_13.JPG);
   background-size: 100% 130%;
-  overflow: hidden;
 }
 
 .main {
@@ -37,6 +36,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .main h1 {
