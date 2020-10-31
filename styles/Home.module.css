@@ -50,12 +50,12 @@
   color: #ff2c2c;
   font-family: futura-pt;
   margin: 0;
-  font-size: 4em;
+  font-size: calc(2vw + 2vh + 1vmin);
 }
 
 .main h2 {
   margin-left: 10px;
   color: #ffffff;
   font-family: futura-pt;
-  font-size: 2em;
+  font-size: calc(1vw + 1vh + 0.5vmin);
 }
