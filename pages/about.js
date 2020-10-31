@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "../components/header";
 import styles from "../styles/About.module.css";
 import Footer from "../components/footer";
-import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -23,10 +23,11 @@ export default function About() {
               />
             </div>
             <p>
-              My name is Ale Balmaceda, and my passion is photography. I graduated in 2017 with a bachelors in Film and Television,
+            My name is Ale Balmaceda, and my passion is photography. I graduated in 2017 with a bachelors in Film and Television,
               where I further developed my skill set and portfolio. I love the freedom and adventure that comes with capturing moments
               within life. All photoshoots are conducted in a laid back and relaxed environment that creates ease for clients regardless
-              of experience. Send me a message through my instagram for a free consultation!
+              of experience. Send me a message through my {' '} 
+	            <Link href="https://www.instagram.com/_alesphotos/"><a><u>Instagram for a free consultation!</u></a></Link>
             </p>
           </div>
           
