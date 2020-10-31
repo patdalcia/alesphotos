@@ -72,7 +72,7 @@
 }
 @media screen and (max-width: 767px) {
   .container {
-    background-image: url(../public/main_mobile_background.PNG);
+    background-image: url(../public/main_mobile_background.jpg);
     background-size: cover;
   }
   .main h1 {
