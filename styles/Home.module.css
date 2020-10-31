@@ -31,8 +31,6 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
-  background-image: url(../public/galleryPic_13.JPG);
-  background-size: 100% 100%;
 }
 
 .main {
@@ -58,4 +56,23 @@
   color: #ffffff;
   font-family: futura-pt;
   font-size: calc(1vw + 1vh + 0.5vmin);
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    background-image: url(../public/galleryPic_13.JPG);
+    background-size: 100% 100%;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .container {
+    background-image: url(../public/galleryPic_7.JPG);
+    background-size: 100% 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    background-image: url(../public/galleryPic_4.JPG);
+    background-size: 100% 100%;
+  }
 }
