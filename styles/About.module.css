@@ -15,11 +15,14 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100vw;
   background-image: url(../public/galleryPic_9.JPG);
   background-size: 100% 130%;
 }
 
 .main {
+  height: 100%;
+  width: 100%;
   flex: 1;
   display: flex;
   justify-content: space-between;
@@ -31,12 +34,12 @@
   color: #ffffff;
   opacity: 0.9;
   font-family: futura-pt;
-  font-size: 2em;
+  font-size: calc(1vw + 1vh + 0.5vmin);
   font-weight: bolder;
 }
 
 .column {
-  min-width: 30vw;
+  min-width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,6 +51,6 @@
 }
 
 .headerHomeImage {
-  width: 20rem;
-  height: 15rem;
+  width: 20vw;
+  height: 30vh;
 }
