@@ -72,7 +72,7 @@
 }
 @media screen and (max-width: 767px) {
   .container {
-    background-image: url("https://patdalcia.sirv.com/Images/galleryPic_7.JPG?w=767");
+    background-image: url(../public/main_mobile_background.PNG);
     background-size: cover;
   }
 }
