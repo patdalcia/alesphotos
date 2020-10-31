@@ -36,7 +36,7 @@
 
 .header {
   min-height: 10vh;
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: calc(0.6vw + 0.6vh + 0.3vmin);
   display: flex;
   justify-content: space-around;
